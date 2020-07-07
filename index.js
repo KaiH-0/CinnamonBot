@@ -110,7 +110,7 @@ bot.on('message', message => {
       break;
 
     case 'help':
-      message.reply('Commands:\n!play [Link to song] - Plays a song\n!skip - Skips the current song in the queue\n!stop - Stops the whole queue\nHey cinnamon - Do not use this command!\nDo you like kais games? - Do not use this command!\nDo you wanna build a snowman? - Do not use this command!');
+      message.reply('Commands:\n!play [Link to song] - Plays a song\n!skip - Skips the current song in the queue\n!stop - Stops the whole queue\n\n!play2 [Link to song] - Plays a song\n!skip2 - Skips the current song in the queue\n!stop2 - Stops the whole queue\nHey cheese - Do not use this command!\nHey cinnamon - Do not use this command!\nDo you like kais games? - Do not use this command!\nDo you wanna build a snowman? - Do not use this command!');
       break;
   }
 })
