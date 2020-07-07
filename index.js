@@ -19,6 +19,14 @@ bot.on('message', msg=>{
     msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
   }
 
+  if(msg.content === "Do you like kais games?"){
+    msg.reply('NOOOOOOOOOOOOOOOO! <:UBETTERSTOPSTOP:729811295246745670>');
+  }
+
+  if(msg.content === "Do you wanna build a snowman?"){
+    msg.reply('NO! NO SINGING ALOUD! YOU DO IT AGAIN AND ILL BAN YOU! <:UBETTERSTOPSTOP:729811295246745670>');
+  }
+
   if(msg.content === "hey cinnamon"){
     msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
   }
