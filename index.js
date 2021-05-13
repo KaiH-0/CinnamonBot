@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 const ytdl = require("ytdl-core");
 
-//const token = 'NzI5Nzk3NjAyNTU5Nzg3MDE4.XwOLCA.oXGMPCvWFkRpdn4infn16eKr9IM';
+const token = 'TOKEN';
 
 //Variables
 const PREFIX = '!';
@@ -16,31 +16,31 @@ bot.on('ready', () =>{
 
 bot.on('message', msg=>{
   if(msg.content === "Hey cinnamon"){
-    msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('What do you want?!');
   }
 
   if(msg.content === "Do you like kais games?"){
-    msg.reply('NOOOOOOOOOOOOOOOO! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('NOOOOOOOOOOOOOOOO!');
   }
 
   if(msg.content === "Do you wanna build a snowman?"){
-    msg.reply('NO! NO SINGING ALOUD! YOU DO IT AGAIN AND ILL BAN YOU! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('NO! NO SINGING ALOUD! YOU DO IT AGAIN AND ILL BAN YOU!');
   }
 
   if(msg.content === "hey cinnamon"){
-    msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('What do you want?!');
   }
 
   if(msg.content === "Hey Cinnamon"){
-    msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('What do you want?!');
   }
 
   if(msg.content === "hey cinnamen"){
-    msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('What do you want?!');
   }
 
   if(msg.content === "Hey cinnamen"){
-    msg.reply('STOP TALKING TO ME!! <:UBETTERSTOPSTOP:729811295246745670>');
+    msg.reply('What do you want?!');
   }
 })
 
