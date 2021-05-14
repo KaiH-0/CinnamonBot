@@ -3,6 +3,7 @@
 This is a bot that can play youtube videos in a voice channel in Discord. It will use the link to play the song in the channel so everyone can hear.
 
 The code is very simple and easy to understand.
+This requires ytdl-core and discordjs but I have left these folders inside node_modules so downloading it isn't needed.
 
 # Commands
 - Hey cinnamon - Try it and find out.
